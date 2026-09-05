@@ -1,0 +1,2 @@
+If we have access to a faster sorting function (betterSort) with the signature as follows
+: betterSort(int data [], first, last), we can still implement the mySort function by calling the betterSort with first = 0 and last =n-1. This would allow mySort to keep the required signature, however it would no sort more efficiently
